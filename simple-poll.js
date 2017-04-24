@@ -64,15 +64,15 @@ vote('Nu', 'Bad Ass');
 
 
 function rekap(hasil) {
-  console.log('\nPerolehan suara untuk masing-masing Gundam adalah sebanyak:');
+  console.log('Perolehan suara untuk masing-masing Gundam adalah sebanyak:');
   for (i = 0; i <= hasil.nGundam.length - 1; i++) {
-    var persen = hasil.nGundam[i] / n * 100;
-    console.log('\tVote ' + pilihan.gundam[i] + ' ' + hasil.nGundam[i] + ' suara (' + persen + '%).');
+    var persenG = hasil.nGundam[i] / n * 100;
+    console.log('Vote ' + pilihan.gundam[i] + ' ' + hasil.nGundam[i] + ' suara (' + persenG + '%).');
   };
-  console.log('\nAlasan memilih Gundam tersebut adalah karena:')
+  console.log('Alasan memilih Gundam tersebut adalah karena:');
   for (j = 0; j <= hasil.nAlasan.length - 1; j++) {
-    var persen = hasil.nAlasan[j] / n * 100;
-    console.log('\t' + pilihan.alasan[j] + ' sebanyak ' + hasil.nAlasan[j] + ' suara (' + persen + '%).');
+    var persenA = hasil.nAlasan[j] / n * 100;
+    console.log(pilihan.alasan[j] + ' sebanyak ' + hasil.nAlasan[j] + ' suara (' + persenA + '%).');
   };
 }
 
