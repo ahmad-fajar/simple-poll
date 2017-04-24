@@ -1,0 +1,36 @@
+// definisi variabel
+
+var pilihan = [gundam, alasan]
+var hasil = [jumlah gundam terpilih, jumlah alasan terpilih]
+var n = jumlah vote //default n = 0, karena sebelum vote dilakukan jumlah vote = 0
+
+
+
+//baca input vote, dan hitung (tally) masing2 pilihan
+
+READ gundam, alasan
+n + 1 untuk setiap vote yang masuk
+IF gundam = gundam ke-i THEN
+  jumlah gundam ke-i + 1
+  ELSE
+  jumlah gundam lain + 1
+END IF
+IF alasan = alasan ke-j THEN
+  jumlah alasan ke-j + 1
+  ELSE
+  jumlah lainnya + 1
+END IF
+
+
+
+//output hasil vote
+READ hasil vote
+FOR masing2 pilihan gundam
+  COMPUTE total perolehan suara masing2 gundam
+  COMPUTE persentase perolehan suara masing2 gundam
+DISPLAY total dan persentase suara masing2 gundam
+FOR masing2 pilihan alasan
+  COMPUTE total perolehan suara masing2 pilihan
+  COMPUTE persentase perolehan suara masing2 pilihan
+DISPLAY total dan persentase suara masing2 alasan
+
