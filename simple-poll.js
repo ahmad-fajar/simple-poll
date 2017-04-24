@@ -8,8 +8,8 @@ var pilihan = {
 };
 
 var hasil = {
-  nGundam : [0, 0, 0, 0, 0, 0], //index: Barbatos, Dendrobium, Exia, Nu, Zeta, invalid
-  nAlasan : [0, 0, 0, 0],  //index: Bad ass, IMBA, keren, invalid
+  nGundam : [0, 0, 0, 0, 0, 0], //index: 0:Barbatos, 1:Dendrobium, 2:Exia, 3:Nu, 4:Zeta, 5:nvalid
+  nAlasan : [0, 0, 0, 0],  //index: 1:Bad ass, 2:IMBA, 3:keren, 4:invalid
 };
 
 var n = 0;  //default di 0 alias ga ada/belum ada yg milih
